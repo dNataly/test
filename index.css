@@ -1,0 +1,57 @@
+ * {
+    margin: 0;
+ }
+
+ header {
+    height: 30px;
+    background-color:#2d3e50;
+}
+
+  .topBar {
+    height: 30px;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    }
+
+
+
+div#title {
+    background-color: white;
+    color: #38b26c;
+    font-weight: bold;
+    padding: 1em;
+}
+
+.button {
+    background-color: #28a85f;
+    border-radius: 3px;
+    color: white;
+    width: 60px;
+    height: 25px;
+    border:0;
+    padding: 0;
+}
+
+.aboutYou {
+    width: 300px;
+    padding: 20px;
+    margin: 30px;
+}
+
+.aside_img {
+    padding: 20px;
+    margin: 30px;
+}
+
+.main_container {
+    display: flex;
+    justify-content: center;
+}
+
+.footerCover {
+    background-image: url('img/footerCover.jpg')
+    background-size: cover;
+}
