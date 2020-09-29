@@ -1,4 +1,4 @@
- * {
+* {
     margin: 0;
     padding: 0;
  }
@@ -37,15 +37,87 @@ div#title {
     border-radius: 5px;
 }
 
-#background {
-    display: block;
-    width: 100%;
-    height:auto;
+.carousel {
+  background-image: url("/img/runningMan.png");
+  width: 100%;
+  height: 350px;
+  background-size: cover;
+  position: relative;
+  background-position: 25% 25%;
 }
+
+.carousel-nav {
+  position: absolute;
+  left: calc(50% - 140px/2);
+  bottom: 30px;
+  width: 200px;
+  height: 20px
+}
+
+.carousel-button {
+  border-radius: 50%;
+  border: 0;
+  height: 12px;
+  width: 12px;
+  background-color: #ffffff;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.carousel-right-button {
+  position: absolute;
+  right: 0;
+
+  width: 25%;
+  height: 100%;
+  
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.carousel-left-button {
+  position: absolute;
+  left: 0;
+
+  width: 25%;
+  height: 100%;
+  
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.carousel-right-button:hover,
+.carousel-left-button:hover {
+  background-color: #fff8;
+  cursor: pointer;
+}
+
+.arrow-right {
+  width: 20px;
+  height: 20px;
+  border-right: 3px solid #000;
+  border-top: 3px solid #000;
+  transform: rotate(45deg);
+}
+
+.arrow-left {
+  width: 20px;
+  height: 20px;
+  border-right: 3px solid #000;
+  border-top: 3px solid #000;
+  transform: rotate(-135deg);
+}
+
+body {
+  margin: 0;
+}
+
+
 
 .main_container {
    display: grid;
-   g
 }
 
 main {

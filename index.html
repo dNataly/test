@@ -1,83 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="css/index.css">
-    <script src="js/index.js"></script>
+    <script src="js/index.js"></script> 
 </head>
-
 <body>
     <header>
         <div class='topBar'>
-            <div id='title'>
-                LAYOUT
-            </div>
-            <nav class='container'>
-                html
-                css
-                javascript
-            </nav>
+        <div id='title'>
+            LAYOUT
+        </div>
+        <nav class='container'>
+            html
+            css
+            javascript
+        </nav>
             <input class='button' type="button" value='ENTER'>
         </div>
-        <div id='background'>
-            <img id='background' src='img/runningMan.png'>
-        </div>
+<div class="carousel">
+  <div class="carousel-right-button">
+     <div class="arrow-right"></div>
+  </div>
+  
+  <div class="carousel-left-button">
+     <div class="arrow-left"></div>
+  </div>
+
+  <div class="carousel-nav">
+    <button type="button" class="carousel-button">
+      &nbsp;
+    </button>
+    
+    <button type="button" class="carousel-button">
+      &nbsp;
+    </button>
+    
+    <button type="button" class="carousel-button">
+      &nbsp;
+    </button>
+    
+    <button type="button" class="carousel-button">
+      &nbsp;
+    </button>
+    
+    <button type="button" class="carousel-button">
+      &nbsp;
+    </button>
+    
+    <button type="button" class="carousel-button">
+      &nbsp;
+    </button>
+  </div>
+</div>
+
 
     </header>
     <main>
-        <div class='main_container'>
-            <article class='aboutYou'>
-                <h2>Something about you</h2>
-                Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является
-                стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник
-                создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem
-                Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн.
-                Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х
-                годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых
-                используется Lorem Ipsum.
-            </article>
-            <aside class='aside_img'>
-                <img src='img/gingerbreadMan.jpg' height="330px">
-            </aside>
-        </div>
+    <div class='main_container'>
+        <article class='aboutYou'>
+        <h2>Something about you</h2>
+        Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.
+        </article>
+        <aside class='aside_img'>
+        <img src='img/gingerbreadMan.jpg' height="330px">
+        </aside>
+    </div>
     </main>
 
     <footer>
-        <div class='footerCover'>
-            <div class='form'>
-                <form>
-                    <h2 class='registration-header'>Register</h2>
-                    <p>
-                        <label for="Email" class="floatLabel"></label>
-                        <input id="email" name="Email" type="text" placeholder='Email'>
-                    </p>
-                    <p>
-                        <label for="Password" class="floatLabel"></label>
-                        <input id="password" name="Password" type="text" placeholder='Password'>
-                    </p>
-                    <div class='drop-down'>
-                        <label class="country">
-                            <select class="select-style" name="Country" placeholder='Country'>
-                                <option value='' disabled selected hidden>Country</option>
-                                <option value="1">Country 1</option>
-                                <option value="2">Country 2</option>
-                                <option value="3">Country 3</option>
-                            </select>
-                        </label>
-
-                        <br>
-                        <input class="button" name="submit" id="submit" value="Submit" type="submit"> <br>
-                    </div>
-                </form>
-            </div>
-        </div>
-        <div class='copyright'>
-            © 2015 layout
-        </div>
+<div class='footerCover'>
+<div class='form'>
+<form>
+<h2 class='registration-header'>Register</h2>
+		<p>
+			<label for="Email" class="floatLabel"></label>
+			<input id="email" name="Email" type="text" placeholder='Email'>
+		</p>
+        		<p>
+			<label for="Password" class="floatLabel"></label>
+			<input id="password" name="Password" type="text" placeholder='Password'>
+		</p>
+<div class='drop-down'>
+                  <label class="country">
+                  <select class="select-style" name="Country" placeholder='Country'> 
+                  <option value='' disabled selected hidden>Country</option>
+                  <option value="1">Country 1</option>
+                  <option  value="2">Country 2</option>
+                  <option value="3">Country 3</option>
+                </label>
+                 </select>   
+                  <br>
+                  <input class="button" name="submit" id="submit" value="Submit" type="submit"> 	 <br>
+</div>
+   </form>  
+</div>
+</div>
+<div class='copyright'>
+© 2015 layout
+</div>
     </footer>
 </body>
-
 </html>
