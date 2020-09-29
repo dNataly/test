@@ -42,7 +42,11 @@ div#title {
    display: block;
 }
 
-.aboutYou {
+main {
+    margin-top: 30%;
+}
+
+main .aboutYou {
     width: 300px;
     padding: 20px;
     margin: 30px;
