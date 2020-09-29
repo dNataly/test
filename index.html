@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
 </head>
 <body>
     <header>
@@ -19,6 +19,7 @@
         </nav>
             <input class='button' type="button" value='ENTER'>
         </div>
+
 
     </header>
     <main>
@@ -35,6 +36,32 @@
 
     <footer>
 <div class='footerCover'>
+<div class='form'>
+<form>
+<h2>Register</h2>
+		<p>
+			<label for="Email" class="floatLabel"></label>
+			<input id="email" name="Email" type="text" placeholder='Email'>
+		</p>
+        		<p>
+			<label for="Password" class="floatLabel"></label>
+			<input id="password" name="Password" type="text" placeholder='Password'>
+		</p>
+<div class='drop-down'>
+                  <label class="country" placeholder='Country'>
+                  <select class="select-style" name="Country" placeholder='Country'> 
+                  <option value=''disabled selected hidden>Country</option>
+                  <option value="1">Country 1</option>
+                  <option  value="2">Country 2</option>
+                  <option value="3">Country 3</option>
+                </label>
+                 </select>   
+                  <br>
+  <div class='button-container'>
+                  <input class="button" id='button' name="submit" id="submit" value="Submit!" type="submit"> 	 <br>
+  </div>
+</div>
+   </form>  
 </div>
     </footer>
 </body>
