@@ -282,11 +282,13 @@ main .about-you {
   border-top: 1px solid #c4c4c4;
   border-bottom: 1px solid #c4c4c4;
   border-radius: 4px;
+  overflow-y: auto !important;
 }
 
 select .select-style:hover {
     background-color: white;
 }
+
 
 .submit-button-container {
   display: flex;
