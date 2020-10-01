@@ -8,7 +8,7 @@ header {
   background-color: #2d3e50;
 }
 
-.topBar {
+.top-bar {
   height: 44px;
   display: flex;
   list-style-type: none;
@@ -40,7 +40,7 @@ div#title {
   padding: 0;
   font-size: 14px;
   border: 6px solid #2d3e50;
-  border-radius: 10px;
+  border-radius: 8px;
 }
 
 .carousel {
@@ -51,14 +51,6 @@ div#title {
   position: relative;
   background-position: 25% 25%;
 }
-
-/* .logo-container {
-    position: absolute;
-    right: 340px;
-    bottom: -212px;
-    width: 365px;
-    height: 220px;
-} */
 
 .carousel-nav {
   position: absolute;
@@ -134,6 +126,39 @@ div#title {
   transform: rotate(-135deg);
 }
 
+.logo-container {
+    position: absolute;
+    z-index: 999;
+    text-align: center;
+    top: 21%;
+    left: 48.5%;
+}
+
+.logo {
+    font-family: Roboto, sans-serif;
+    font-size: 55px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.logo span::after{
+    content: "\a";
+    white-space: pre;
+}
+
+.logo-button {
+  background-color: #25a75c;
+  color: white;
+  width: 80px;
+  height: 40px;
+  border: 0;
+  padding: 0;
+  font-size: 20px;  
+  border-radius: 3px;
+  margin-top: 40px;
+}
+
 body {
   margin: 0;
 }
@@ -174,8 +199,8 @@ main .aboutYou {
 }
 
 .footerCover {
-    background-image: url("../img/footerCover.png");
-    height: 530px;
+    background-image: url("../img/footerCoverSized.png");
+    height: 565px;
     position: relative;
   }
   
@@ -189,8 +214,8 @@ main .aboutYou {
   margin: 10px auto 0;
   border-radius: 2px;
   position: absolute;
-  right: calc(50% - 460px / 2);
-  top: calc(50% - 358px / 2);
+  right: calc(50% - 440px / 2);
+  top: calc(50% - 230px);
 }
 
 .registration-header {
@@ -202,18 +227,20 @@ main .aboutYou {
 }
 
 .form input[type="text"] {
-  width: 300px;
-  height: 50px;
+  width: 280px;
+  height: 40px;
   background-color: #f5f5f5;
   margin: 10px;
   padding: 4px;
   padding-left: 20px;
-  font-size: 15px;
+  font-size: 20px;
   border-right: transparent;
   border-left: transparent;
   border-top: 1px solid;
   border-bottom: transparent;
   border-color: #c4c4c4;
+  border-radius: 4px;
+  font-family: Roboto, sans-serif;
 }
 
 .form input[type="email"] {
@@ -228,8 +255,8 @@ main .aboutYou {
 }
 
 .country .select-style {
-    width: 325px;
-    height: 57px;
+    width: 300px;
+    height: 52px;
     background-color: #f5f5f5;
     margin: 10px;
     font-size: 15px;
@@ -237,14 +264,9 @@ main .aboutYou {
     border-left: transparent;
     border-top: 1px solid #c4c4c4;
     border-bottom: 1px solid #c4c4c4;
+    border-radius: 4px;
 }
 
-option [value='1'],
-option [value='2'],
-option [value='3']
-{
-    border-bottom: 1px solid #c4c4c4;
-}
 
 .submit-button-container {
   display: flex;
