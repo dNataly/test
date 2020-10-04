@@ -4,13 +4,13 @@
 }
 
 html {
-    box-sizing: border-box;
-  }
-  *,
-  *:before,
-  *:after {
-    box-sizing: inherit;
-  }
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
 
 header {
   height: 76vh;
@@ -35,7 +35,7 @@ div#title {
   font-size: 25px;
   width: 140px;
   text-align: center;
-  font-family: 'Roboto Bold', arial;
+  font-family: "Roboto Bold", arial;
 }
 
 div .top-bar-items {
@@ -47,17 +47,20 @@ div .top-bar-items {
   .top-bar {
     flex-direction: column;
     height: auto;
-  } div#title {
+  }
+  div#title {
     padding: 0.3em;
     margin: 0;
-  } #enter-button {
+  }
+  #enter-button {
     text-align: center;
     margin-right: 0;
-  } div .top-bar-items {
+  }
+  div .top-bar-items {
     margin-left: 0;
     padding: 10px;
   }
-  }
+}
 
 @media all and (max-width: 910px) {
   .logo {
@@ -210,10 +213,23 @@ main {
   justify-content: center;
 }
 
-/* @media all and (max-width: 1022px) {
-   .aside-img {
+@media all and (max-width: 1034px) {
+  main {
+    height: auto;
   }
-} */
+  .about-you {
+   width: 900px;
+  }
+   .aside-img {
+     margin-left: 10%;
+   }
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    margin-left: 20%;
+  }
+}
 
 #main-header {
   font-size: 35px;
@@ -235,9 +251,9 @@ main .about-you {
 }
 
 .your-photo {
-    font-size: 12px;
-    padding-bottom: 6px;
-}   
+  font-size: 12px;
+  padding-bottom: 6px;
+}
 
 .aside-img {
   margin-left: 99px;
@@ -248,7 +264,6 @@ main .about-you {
   display: flex;
   justify-content: center;
 }
-
 
 .footerCover {
   background-image: url("../img/footerCoverSized.png");
@@ -315,8 +330,37 @@ input::placeholder {
   font-weight: 550;
 }
 
+.dropdown {
+  position: relative;
+}
 
-.select-style {
+.dropdown-option {
+  padding: 5px;
+  background: #fff;
+  border-bottom: 1px solid silver;
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  display: none;
+  /* width: 300px;
+  height: 50px; */
+  position: absolute;
+  top: 50px;
+  left: 5px;
+  max-height: 200px;
+  overflow-y: auto;
+  border: 1px rgb(148, 146, 146) solid;
+  border-radius: 3px;
+}
+
+.overflow-scroll {
+  max-height: auto;
+}
+
+.dropdown-button {
+  position: relative;
+  cursor: pointer;
   width: 300px;
   height: 50px;
   background-color: #f5f5f5;
@@ -326,16 +370,43 @@ input::placeholder {
   border-top: 1px solid #c4c4c4;
   border-bottom: transparent;
   border-radius: 4px;
+  padding-left: 15px;
+  font-size: 20px;
+  font-weight: 550;
+  font-family: Roboto, sans-serif;
+  text-align: left;
+}
+.dropdown-button::after {
+  content: "\25BE";
+  position: absolute;
+  right: 10px;
+  top: 15px;
 }
 
-select:nth-of-type(1) {
-  font-size: 20px;
+.dropdown-option {
+  width: 297px;
+  height: 50px;
   padding-left: 15px;
+  padding-top: 13px;
   font-size: 20px;
   font-weight: 550;
   font-family: Roboto, sans-serif;
 }
 
+.dropdown-menu::-webkit-scrollbar-track {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+}
+
+.dropdown-menu::-webkit-scrollbar {
+  width: 2px;
+  background-color: #f5f5f5;
+}
+
+.dropdown-menu::-webkit-scrollbar-thumb {
+  background-color: #252525;
+  border-radius: 10px;
+}
 
 .submit-button-container {
   text-align: center;
@@ -361,13 +432,17 @@ select:nth-of-type(1) {
     align-items: center;
     position: absolute;
     right: calc(50% - 420px / 2);
-  } .registration-header {
+  }
+  .registration-header {
     padding-top: -7px;
-  } .form input[type="text"] {
+  }
+  .form input[type="text"] {
     max-width: 300px;
-  }.select-style {
+  }
+  .select-style {
     max-width: 300px;
-  } .submit-button {
+  }
+  .submit-button {
     padding-bottom: 5px;
   }
 }

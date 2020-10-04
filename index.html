@@ -8,7 +8,6 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:700' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Roboto:100' rel='stylesheet' type='text/css'>
 <link href="https://uk.allfont.net/allfont.css?fonts=roboto-bold" rel="stylesheet" type="text/css" />
-<script src="js/index.js"></script>
   </head>
   <body>
     <header>
@@ -98,29 +97,34 @@
                 placeholder="Password"
               />
             </p>
-            <p class='form-items'>
-                <select
-                  class="select-style"
-                  name="country[]"
-                  font-size="20px"
-                  
-  font-family="Roboto, sans-serif"
-                > <div class='option-wrapper'>
-                  <option value='' hidden name='Country' placeholder='Country'>Country</option>
-                 <option value="1">Country 1</option>
-                  <option value="2">Country 2</option>
-                  <option value="3">Country 3</option>
-                  <option value="4">Country 4</option>
-                  <option value="5">Country 5</option>
-                  <option value="4">Country 6</option>
-                  <option value="5">Country 7</option>
-                  <option value="4">Country 8</option>
-  
-   
-</div>
-                                </select>
 
-</p>
+
+<div class="dropdown">
+    <button type="button" class="dropdown-button">
+      Country
+    </button>
+  
+    <div class="dropdown-menu">
+      <div class="overflow-scroll">
+        <div class="dropdown-option">Country1</div>
+        <div class="dropdown-option">Country2</div>
+        <div class="dropdown-option">Country3</div>
+        <div class="dropdown-option">Country4</div>
+        <div class="dropdown-option">Country5</div>
+        <div class="dropdown-option">Country1</div>
+        <div class="dropdown-option">Country2</div>
+        <div class="dropdown-option">Country3</div>
+        <div class="dropdown-option">Country4</div>
+        <div class="dropdown-option">Country5</div>
+        <div class="dropdown-option">Country1</div>
+        <div class="dropdown-option">Country2</div>
+        <div class="dropdown-option">Country3</div>
+        <div class="dropdown-option">Country4</div>
+        <div class="dropdown-option">Country5</div>
+      </div>
+    </div>
+  </div>
+  
 
               <br />
               <div class='submit-button-container'>
@@ -139,5 +143,6 @@
         © 2015 layout
       </div>
     </footer>
+    <script src="js/index.js"></script>
   </body>
 </html>
