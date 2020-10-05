@@ -13,7 +13,7 @@ html {
 }
 
 header {
-  height: 76vh;
+  height: auto;
 }
 
 .top-bar {
@@ -226,7 +226,6 @@ div .top-bar-items {
 }
 
 main {
-  height: auto;
   width: 100%;
   margin-top: 30px;
   flex-direction: row;
