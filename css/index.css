@@ -373,7 +373,7 @@ main .about-you {
   justify-content: center;
   align-items: center;
   font-family: Roboto, sans-serif;
-  top: -20px;
+  top: -18px;
 }
 
 .form input[type="text"] {
