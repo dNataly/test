@@ -36,8 +36,9 @@ div#title {
   font-size: 25px;
   width: 140px;
   text-align: center;
-  font-family: Roboto, sans-serif;
-  font-weight: 1000;
+  font-family: Arial;
+  font-weight: 800;
+  font-stretch: condensed;
 }
 
 div#html {
