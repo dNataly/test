@@ -25,28 +25,44 @@ header {
   align-items: center;
   color: white;
   font-size: 17px;
+  position: relative;
 }
 
 div#title {
   background-color: white;
   color: #38b26c;
   padding: 1em;
-  margin-left: 7.5%;
+  margin-left: 2.1%;
   font-size: 25px;
   width: 140px;
   text-align: center;
   font-family: "Roboto Bold", arial;
 }
 
-div .top-bar-items {
-  display: inline;
-  margin-left: 55px;
+
+div#html {
+  position: absolute;
+  left: 575px;
+  top: 11px;
 }
 
-@media all and (max-width: 750px) {
+div#css {
+  position: absolute;
+  left: 644px;
+  top: 11px;
+}
+
+div#javascript {
+  position: absolute;
+  left: 707px;
+  top: 11px;
+}
+
+@media all and (max-width: 1132px) {
   .top-bar {
     flex-direction: column;
     height: auto;
+    top: 5px;
   }
   div#title {
     padding: 0.3em;
@@ -59,6 +75,22 @@ div .top-bar-items {
   div .top-bar-items {
     margin-left: 0;
     padding: 10px;
+  }div#html {
+    position: absolute;
+    left: 30px;
+    top: 14px;
+  }
+  
+  div#css {
+    position: absolute;
+    left: 99px;
+    top: 14px;
+  }
+  
+  div#javascript {
+    position: absolute;
+    left: 162px;
+    top: 14px;
   }
 }
 
@@ -72,7 +104,7 @@ div .top-bar-items {
   font-size: 15px;
   border: 6px solid #2d3e50;
   border-radius: 8px;
-  margin-right: 95px;
+  margin-right: 1.7%;
 }
 
 @media all and (max-width: 910px) {
@@ -84,12 +116,27 @@ div .top-bar-items {
   }
   .logo-button {
     position: absolute;
-    left: calc(50% - 100px / 2);
-    bottom: calc(50% - 600px / 2);
+     top: 183px;
   }
 }
 
-
+@media all and (max-width: 660px) { 
+  div#html {
+   position: static;
+ }
+ 
+ div#css {
+   
+   position: static;
+ }
+ 
+ div#javascript {
+  
+   position: static;
+ } .logo-button {
+   top: 300px;
+ }
+}
 .carousel {
   background-image: url("../img/runningMan.png");
   width: 100%;
@@ -218,12 +265,6 @@ div .top-bar-items {
   }
 }
 
-@media all and (max-width: 919px) {
-  .logo-button {
-    left: 40%;
-    top: 200px;
-  }
-}
 
 main {
   width: 100%;
@@ -238,23 +279,24 @@ main .about-you {
   font-size: 14px;
   font-weight: 900;
   line-height: 25px;
-  margin-top: 22px;
+  margin-top: 35px;
   letter-spacing: 0.6px;
 }
 
 .your-photo {
   font-size: 12px;
-  padding-bottom: 6px;
+  padding-bottom: 5px;
 }
 
 .aside-img {
   margin-left: 90px;
+  margin-top: 13px;
 }
 
 .main-container {
   display: flex;
   justify-content: center;
-  margin-bottom: 78px;
+  margin-bottom: 77px;
 }
 
 @media all and (max-width: 1034px) {
@@ -284,7 +326,7 @@ main .about-you {
   } .about-you {
     max-width: 350px;
     height: auto;
-  } .form
+  } 
 }
 
 #main-header {
