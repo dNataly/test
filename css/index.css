@@ -40,7 +40,6 @@ div#title {
   font-weight: 1000;
 }
 
-
 div#html {
   position: absolute;
   left: 575px;
@@ -76,18 +75,19 @@ div#javascript {
   div .top-bar-items {
     margin-left: 0;
     padding: 10px;
-  }div#html {
+  }
+  div#html {
     position: absolute;
     left: 30px;
     top: 14px;
   }
-  
+
   div#css {
     position: absolute;
     left: 99px;
     top: 14px;
   }
-  
+
   div#javascript {
     position: absolute;
     left: 162px;
@@ -117,26 +117,25 @@ div#javascript {
   }
   .logo-button {
     position: absolute;
-     top: 183px;
+    top: 183px;
   }
 }
 
-@media all and (max-width: 660px) { 
+@media all and (max-width: 660px) {
   div#html {
-   position: static;
- }
- 
- div#css {
-   
-   position: static;
- }
- 
- div#javascript {
-  
-   position: static;
- } .logo-button {
-   top: 300px;
- }
+    position: static;
+  }
+
+  div#css {
+    position: static;
+  }
+
+  div#javascript {
+    position: static;
+  }
+  .logo-button {
+    top: 300px;
+  }
 }
 .carousel {
   background-image: url("../img/runningMan.png");
@@ -211,6 +210,8 @@ div#javascript {
   border-right: 3px solid #2c3e50;
   border-top: 3px solid #2c3e50;
   transform: rotate(45deg);
+  margin-top: 16px;
+  margin-left: -10px;
 }
 
 .arrow-left {
@@ -219,6 +220,8 @@ div#javascript {
   border-right: 3px solid #2c3e50;
   border-top: 3px solid #2c3e50;
   transform: rotate(-135deg);
+  margin-top: 16px;
+  margin-right: -10px;
 }
 
 .logo-container {
@@ -265,7 +268,6 @@ div#javascript {
     display: none;
   }
 }
-
 
 main {
   width: 100%;
@@ -321,13 +323,14 @@ main .about-you {
   }
 }
 
-@media all and (max-width: 596px) { 
+@media all and (max-width: 596px) {
   .main-container {
     margin-left: 3%;
-  } .about-you {
+  }
+  .about-you {
     max-width: 350px;
     height: auto;
-  } 
+  }
 }
 
 #main-header {
