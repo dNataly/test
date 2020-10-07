@@ -7,20 +7,22 @@
     <link rel="stylesheet" type="text/css" href="css/index.css" />
     <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:700' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Roboto:100' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
     <header>
-      <div class="top-bar" id="top-bar">
-        <div id="title">
-          LAYOUT
-        </div>
-        <nav class="top-bar-container">
-          <div class='top-bar-items' id='html'>html </div><div class='top-bar-items' id='css'>css </div> <div class='top-bar-items' id='javascript'>javascript </div>
-                          </nav>
-        <input class="button" id='enter-button' type="button" value="ENTER" />
 
-      </div>
-
+  <header class="header">
+      <a href="" id="title">LAYOUT</a>
+      <input class="menu-btn" type="checkbox" id="menu-btn" />
+      <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+      <ul class="menu">
+        <li><a href="#work" id='html'>html</a></li>
+        <li><a href="#about" id='css'>css</a></li>
+        <li><a href="#careers" id='javascript'>javascript</a></li>
+    <input class="button" id='enter-button' type="button" value="ENTER">
+      </ul>
+    </header>
 
       <div class='logo-container'>
 <div class='logo'>
@@ -28,41 +30,6 @@
     </div>
     <button name="button" class='logo-button'>GO!</button>
 </div>
-<!-- <div class='header-background-wrapper'>
-
-      <div class="carousel">
-        <div class="carousel-right-button">
-          <div class="arrow-right"></div>
-        </div>
-
-        <div class="carousel-left-button">
-          <div class="arrow-left"></div>
-        </div>
-
-        <div class="carousel-nav">
-          <button type="button" class="carousel-button">
-            &nbsp;
-          </button>
-
-          <button type="button" class="carousel-button">
-            &nbsp;
-          </button>
-
-          <button type="button" class="carousel-button">
-            &nbsp;
-          </button>
-
-          <button type="button" class="carousel-button">
-            &nbsp;
-          </button>
-
-
-          <button type="button" class="carousel-button">
-            &nbsp;
-          </button>
-        </div>
-      </div>
-      </div> -->
 
 
       <div class="slideshow-container">
@@ -74,19 +41,19 @@
           </div>
         
           <div class="mySlides fade">
-            <img src="img/runningMan.png" style="width:100%">
+            <img src="img/runningManGrey.jpg" style="width:100%">
           </div>
         
           <div class="mySlides fade">
-            <img src="img/runningMan.png" style="width:100%">
+            <img src="img/runningManBlue.jpg" style="width:100%">
           </div>
         
           <div class="mySlides fade">
-              <img src="img/runningMan.png" style="width:100%">
+              <img src="img/runningManPink.jpg" style="width:100%">
             </div>
 
             <div class="mySlides fade">
-                <img src="img/runningMan.png" style="width:100%">
+                <img src="img/runningManRed.jpg" style="width:100%">
               </div>
 
 
@@ -112,6 +79,8 @@
     </header>
     <main>
       <div class="main-container">
+          <div class='grid-item-1'>
+            </div>
         <article class="about-you">
           <p id='main-header'>Something about you</p>
   In this section, you can specify any information about yourself, insert your photos, your interests and skills. It is also desirable to use tag canvas. <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis  unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem <br> sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
@@ -120,6 +89,8 @@
             <p class='your-photo'>Your photo</p>
           <img src="img/gingerbreadMan.png" />
         </aside>
+        <div class='grid-item-2'>
+          </div>
       </div>
     </main>
 
@@ -152,15 +123,15 @@
   
     <div class="dropdown-menu">
       <div class="overflow-scroll">
-        <div class="dropdown-option">Country1</div>
-        <div class="dropdown-option">Country2</div>
-        <div class="dropdown-option">Country3</div>
-        <div class="dropdown-option">Country4</div>
-        <div class="dropdown-option">Country5</div>
-        <div class="dropdown-option">Country1</div>
-        <div class="dropdown-option">Country2</div>
-        <div class="dropdown-option">Country3</div>
-        <div class="dropdown-option">Country4</div>
+        <div class="dropdown-option">Country 1</div>
+        <div class="dropdown-option">Country 2</div>
+        <div class="dropdown-option">Country 3</div>
+        <div class="dropdown-option">Country 4</div>
+        <div class="dropdown-option">Country 5</div>
+        <div class="dropdown-option">Country 1</div>
+        <div class="dropdown-option">Country 2</div>
+        <div class="dropdown-option">Country 3</div>
+        <div class="dropdown-option">Country 4</div>
       </div>
     </div>
   </div>
@@ -172,7 +143,7 @@
                 class="submit-button"
                 name="submit"
                 id="submit"
-                value="Submit"
+                value="ENTER"
                 type="submit"
               />
               <br />

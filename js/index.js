@@ -26,18 +26,9 @@ function showSlides(n) {
 }
 
 
-
 function myFunction() {
-    var x = document.getElementById("top-bar");
-    if (x.className === "top-bar") {
-      x.className += " responsive";
-    } else {
-      x.className = "top-bar";
-    }
-  }
-
-
-
+  document.getElementsByClassName("topnav")[0].classList.toggle("responsive");
+}
 
 
 const allDropdowns = document.querySelectorAll(".dropdown");
