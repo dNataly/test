@@ -25,7 +25,7 @@ a {
 /* header */
        
 .header {
-  background-color: white;
+  background-color: #2d3e50;
   box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
   width: 100%;
   z-index: 3;
@@ -37,25 +37,26 @@ a {
   padding: 0;
   list-style: none;
   overflow: hidden;
-  background-color: #fff;
+  background-color: #2d3e50;
 }
 
 .header li a {
   display: block;
   padding: 20px 20px;
   text-decoration: none;
-  color: #0e141b !important;
+  color: white;
   font-size: 20px;
   text-align: center;
   font-weight: 500;
+  
 }
 
 .header li a:hover,
 .header .menu-btn:hover {
   transition: .4s ease-in-out;
   color: white !important;
-  background-color:  #38b26c;
-  border-radius: 6px;
+  background-color:  #344a63;
+  border-radius: 4px;
 }
 
 .header #title {
@@ -66,7 +67,9 @@ a {
   font-size: 25px;
   color: #38b26c;
   font-size: 25px;
-  font-family: 'Roboto Black';  
+  font-family: 'Roboto Black'; 
+  background-color: white;
+  padding: 0.5em;
 }
 
 /* menu */
@@ -89,17 +92,16 @@ a {
 }
 
 .header .menu-icon .navicon {
-  background: #333;
+  background: rgb(236, 234, 234);
   display: block;
   height: 2px;
   position: relative;
-  /* transition: background .2s ease-out; */
   width: 18px;
 }
 
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
-  background: #333;
+  background: rgb(236, 234, 234);
   content: '';
   display: block;
   height: 100%;
