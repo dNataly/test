@@ -446,7 +446,7 @@ main {
     place-items: center;
     row-gap: 10px;
   } main .about-you {
-    width: auto !important;
+    width: 90% !important;
   }
 }
 
