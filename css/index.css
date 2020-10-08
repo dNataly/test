@@ -480,6 +480,14 @@ main .about-you {
   color: #2c3e50;
 } 
 
+
+@media all and (max-width: 560px) {
+  #your-photo {
+   width: 300px;
+    height: auto;
+  }
+}
+
 .footerCover {
   background-image: url("../img/footerCover.jpg");
   height: 563px;
