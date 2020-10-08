@@ -23,7 +23,7 @@ a {
 }
 
 /* header */
-
+       
 .header {
   background-color: white;
   box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
@@ -44,12 +44,18 @@ a {
   display: block;
   padding: 20px 20px;
   text-decoration: none;
-  color: white;
+  color: #0e141b !important;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 500;
 }
 
 .header li a:hover,
 .header .menu-btn:hover {
-  color: #5a6a7c;
+  transition: .4s ease-in-out;
+  color: white !important;
+  background-color:  #38b26c;
+  border-radius: 6px;
 }
 
 .header #title {
@@ -58,6 +64,9 @@ a {
   text-decoration: none;
   padding: 15px 0px 0px 15px;
   font-size: 25px;
+  color: #38b26c;
+  font-size: 25px;
+  font-family: 'Roboto Black';  
 }
 
 /* menu */
@@ -65,7 +74,7 @@ a {
 .header .menu {
   clear: both;
   max-height: 0;
-  transition: max-height .2s ease-out;
+  transition:  .2s ease-out;
 }
 
 /* menu icon */
@@ -147,7 +156,7 @@ a {
     text-align: center;
     font-family: 'Roboto Black';       
     font-stretch: condensed;
-    padding: 5px 21px;
+    padding: 5px 21px !important;
   }
   header {
     background-color: #2d3e50 !important;
@@ -158,11 +167,12 @@ a {
   }
   #html {
     position: absolute;
-    left: 575px;
-    top: 11px;
+    left: 575px !important;
+    top: 11px !important;
     font-size: 15px;
     font-family: 'Roboto Regular';
     padding: 0;
+    color: white !important;
   }
   
   #html:hover {
@@ -172,11 +182,12 @@ a {
   
   #css {
     position: absolute;
-    left: 644px;
-    top: 11px;
+    left: 644px !important;
+    top: 11px !important;
     font-size: 15px;
     font-family: 'Roboto Regular';
     padding: 0;
+    color: white !important;
   }
 
   
@@ -187,11 +198,12 @@ a {
   
   #javascript {
     position: absolute;
-    left: 707px;
-    top: 11px;
+    left: 707px !important;
+    top: 11px !important;
     font-size: 15px;
     font-family: 'Roboto Regular';
     padding: 0;
+    color: white !important;
   }
   
   #javascript:hover {
@@ -237,56 +249,6 @@ a {
     display: block;
   } 
 } 
-
-
-
-/* @media all and (max-width: 1132px) {
-  .top-bar {
-    flex-direction: row;
-    justify-content: space-between;
-    height: auto;
-  }
-  div#title {
-    padding: 0.3em;
-    margin: 0;
-      background-color: white;
-      color: #38b26c;
-      margin-left: 2.1%;
-      font-size: 25px;
-      width: 100px;
-      text-align: center;
-      font-family: 'Roboto Black';         
-      font-stretch: condensed;
-    }
-
-  #enter-button {
-    text-align: center;
-    margin-right: 0;
-  }
-
-  div#html {
-    font-size: 17px;
-    position: absolute;
-    left: 33%;
-    top: 15px;
-  }
-
-  div#css {
-    font-size: 17px;
-    position: absolute;
-    left: 43%;
-    top: 15px;
-  }
-    
-  div#javascript {
- font-size: 17px;
-    position: absolute;
-    left: 53%;
-    top: 15px;
-  }
-} */
-
-
 
 @media all and (max-width: 910px) {
   .logo {
@@ -454,7 +416,7 @@ main {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   align-items: center;
-  justify-content;: center;
+  justify-content: center;
   margin-bottom: 77px;
   column-gap: 100px;
 }
