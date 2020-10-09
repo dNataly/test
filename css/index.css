@@ -22,7 +22,7 @@ a {
   color: #000;
 }
 
-       
+
 .header {
   background-color: #2d3e50;
   width: 100%;
@@ -353,11 +353,12 @@ a {
 
 /* Fading animation */
 .fade {
-  -webkit-animation-name: fade;
+  -webkit-animation-name: inline;
   -webkit-animation-duration: 1.5s;
-  animation-name: fade;
+  animation-name: inline;
   animation-duration: 1.5s;
 }
+
 
 @-webkit-keyframes fade {
   from {opacity: .4}
@@ -606,7 +607,8 @@ input::placeholder {
   text-align: left;
 }
 .dropdown-button::after {
-  content: "\23F7";
+  content: "\25E2";
+  transform: rotate(45deg);
   position: absolute;
   right: 10px;
   top: 7px;
