@@ -614,7 +614,7 @@ main .about-you {
   border-bottom: transparent;
   border-color: #c4c4c4;
   border-radius: 4px;
-  font-family: ' Roboto ', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: black;
 }
 
@@ -741,12 +741,12 @@ input::placeholder {
 @media all and (max-width: 550px) {
   .form {
     max-height: 400px;
-    max-width: 385px;
+    max-width: 370px;
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
-    right: calc(50% - 400px / 2);
+    right: calc(50% - 370px / 2);
   }
   .registration-header {
     padding-top: -7px;
