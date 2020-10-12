@@ -263,6 +263,38 @@ a {
   position: relative;
 }
 
+.slider {
+  width: 50%;
+  margin: 100px auto;
+}
+
+.slick-slide {
+margin: 0px 20px;
+}
+
+.slick-slide img {
+width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+color: black;
+}
+
+
+.slick-slide {
+transition: all ease-in-out .3s;
+opacity: .2;
+}
+
+.slick-active {
+opacity: .5;
+}
+
+.slick-current {
+opacity: 1;
+}
+
 .logo-container {
   position: absolute;
   z-index: 991;
@@ -353,9 +385,9 @@ a {
 
 /* Fading animation */
 .fade {
-  -webkit-animation-name: inline;
+  -webkit-animation-name: slide;
   -webkit-animation-duration: 1.5s;
-  animation-name: inline;
+  animation-name: slide;
   animation-duration: 1.5s;
 }
 
@@ -370,7 +402,47 @@ a {
   to {opacity: 1}
 }
 
+.scale-up-center {
+	animation: scale-up-center 0.4s ease-out both;
+}
+@keyframes scale-up-center {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 
+
+
+.logo-container-2 {
+  animation: pop-in .6s ease-out forwards;
+  opacity: 0;
+  position: absolute;
+  z-index: 991;
+  text-align: center;
+  top: 21%;
+  left: 48.5%;
+}
+
+@keyframes pop-in {
+  0% {
+    opacity: 0;
+    transform: translateY(-4rem) scale(.8);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.logo-2 {
+  font-family: 'Roboto Thin';
+  font-size: 55px;
+  color: white;
+  }
+  
 
 @media all and (max-width: 728px) {
  .dot {
@@ -421,6 +493,7 @@ a {
     display: none;
   }
 }
+
 
 main {
   width: 100%;
