@@ -27,8 +27,6 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
       </ul>
     </header>
 
-
-
       <div class="slideshow-container" id="slideshow-container" >
           <!-- Full-width images with number and caption text -->
           <div class="mySlides" class='scale-up-center' id="mySlides fade">
@@ -101,36 +99,8 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
           <span class="dot" onclick="currentSlide(3)"></span>
         </div>
         </div>
-
-      <script>
-jQuery('header').swipe( {
-    swipeStatus:function(event, phase, direction, distance, duration, fingerCount, fingerData, currentDirection)
-    {
-        if (phase=="start"){
-            // сработает в начале swipe
-        } 
-        if (phase=="end"){ 
-            //сработает через 20 пикселей то число которое выбрали в threshold
-            if (direction == 'left') {
-                //сработает при движении влево
-            }
-            if (direction == 'right') {
-                //сработает при движении вправо
-            }
-            if (direction == 'up') {
-                //сработает при движении вверх
-            }
-            if (direction == 'down') {
-                //сработает при движении вниз
-            }
- },
- triggerOnTouchEnd:false,
- threshold:20 // сработает через 20 пикселей
-});
-
-</script>
-
-    </header>
+</div>
+      </header>
     <main>
       <div class="main-container">
           <div class='grid-item-1'>
@@ -212,5 +182,6 @@ jQuery('header').swipe( {
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="js/swipe.js"></script>
     <script type="text/javascript" src="js/jquery.touchSwipe.min.js"></script>
+    <script src="js/swiping.js"></script>
   </body>
 </html>

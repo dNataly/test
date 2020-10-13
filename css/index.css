@@ -217,11 +217,6 @@ a {
     color: #85909c;
   } 
   
-  /* .header .menu {
-    clear: none;
-    float: right;
-    max-height: none;
-  } */
   .header .menu-icon {
     display: none;
   } .button {
@@ -409,7 +404,7 @@ opacity: 1;
     z-index: 991;
     text-align: center;
     top: 40%;
-    right: 30%;
+    right: 33%;
   }
 
   .logo-button {

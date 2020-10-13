@@ -25,7 +25,18 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
+window.onload = function () {
+  const slidesContainer = document.getElementById("slideshow-container");
 
+  swipeDetect(slidesContainer, function(swipedir){
+    // swipedir contains either "none", "left", "right", "top", or "down"
+    if (swipedir === 'left') {
+      plusSlides(1)
+    } else if (swipedir === 'right') {
+      plusSlides(-1)
+    }
+  })
+}
 
 function myFunction() {
   document.getElementsByClassName("topnav")[0].classList.toggle("responsive");
