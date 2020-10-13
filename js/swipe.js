@@ -9,3 +9,4 @@ $(function() {
     //Set some options later
     $("#test").swipe( {fingers:2} );
   });
+  
