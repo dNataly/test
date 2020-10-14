@@ -1,0 +1,22 @@
+#background_1 {
+    background-image: url(img/runningMan.png);
+    height: 100px;
+    width: 190px;
+    background-size: cover;
+}
+
+#background_2 {
+    background-image: url(img/runningMan.png);
+}
+
+#background_3 {
+    background-image: url(img/runningMan.png);
+}
+
+#background_4 {
+    background-image: url(img/runningMan.png);
+}
+
+#background_5 {
+    background-image: url(img/runningMan.png);
+}

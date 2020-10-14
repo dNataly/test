@@ -34,6 +34,7 @@ a {
 
 }
 
+
 .header ul {
   margin: 0;
   padding: 0;
@@ -387,11 +388,9 @@ opacity: 1;
 
 
 .fade, .logo-container, .logo-container-2 {
-  animation: fadeInRight; /* referring directly to the animation's @keyframe declaration */
-  animation-duration: 1.5s; /* don't forget to set a duration! */
+  animation:fadeInRightBig; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 1s; /* don't forget to set a duration! */
 }
-
-
 
 .logo-2 {
   font-family: 'Roboto Thin';
@@ -424,49 +423,60 @@ opacity: 1;
     background-color: #33db6d;
   }
   
-  @media all and (max-width: 1117px) {
-    .logo-container, 
-      .logo-container-2 {
-      position: absolute;
-      right: 0%;
-      top: 0%;
-      bottom: calc(0% + 4px);
-      max-width: 200px;
-      z-index: 991;
-      background-color: rgba(88, 98, 105, 0.664);
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-      flex-direction: column;  
-        
-    } .logo, .logo-2 {
-      font-family: 'Roboto Thin';
-      font-size: 20px !important;
-      color: white;
-      } .logo-button {
-        width: 50px;
-        height: 30px;
-        font-size: 15px;
-        border-radius: 3px;
-        font-family: 'Roboto Regular';
-        margin-top: 5px;
-      } .prev {
-        left: 2%;
-        font-size: 25px;
-      } .next {
-        right: 33%;
-        font-size: 25px;
-      }
+  #mobile_img {
+    display: none;
   }
 
-@media all and (max-width: 728px) {
- .dot {
-   width: 10px;
-   height: 10px;
+
+  /* @media all and (max-width: 1117px) {
+  
+  } */
+
+@media all and (max-width: 507px) {
  }  .dot-wrapper {
-   position: static;
-   margin-top: -50px;
-} 
+  display: none;
+}    #desktop_img {
+  display: none;
+} #mobile_img {
+  display: block;
+}     .logo-container, 
+.logo-container-2 {
+position: absolute;
+right: 0%;
+left: 0%;
+top: 0%;
+bottom:0%;
+z-index: 999;
+background-color: rgba(102, 98, 98, 0.466);        
+} .logo, .logo-2 {
+font-family: 'Roboto Thin';
+font-size: 25px !important;
+color: white;
+margin-top: 20px;
+} .logo-button {
+  width: 60px;
+  height: 40px;
+  font-size: 15px;
+  font-family: 'Roboto Regular';
+  color: white;
+  border: 1px white solid;
+  background-color: rgba(255, 235, 205, 0);
+
+} .logo-button:hover {
+  border: 2px white solid;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: rgba(255, 255, 255, 0.089);
+}
+.prev {
+  left: 2%;
+  font-size: 25px;
+  z-index: 1000;
+} .next {
+  right: 2%;
+  font-size: 25px;
+  z-index: 1001;
+}
 }
 
 .logo {
@@ -481,7 +491,6 @@ opacity: 1;
   content: "\a";
   white-space: pre;
 }
-
 
 main {
   width: 100%;
