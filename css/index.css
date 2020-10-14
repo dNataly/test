@@ -683,10 +683,11 @@ input::placeholder {
   text-align: left;
 }
 .dropdown-button::after {
-  content: "\23F7";
+  content: url("../img/triangle1.png");
+  transform: rotate(180deg);
   position: absolute;
-  right: 10px;
-  top: 7px;
+  right: 16px;
+  top: 12px;
   color: #555555;
 }
 
