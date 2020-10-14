@@ -387,9 +387,9 @@ opacity: 1;
 /* Fading animation */
 
 
-.fade, .logo-container, .logo-container-2 {
-  animation:fadeInRightBig; /* referring directly to the animation's @keyframe declaration */
-  animation-duration: 1s; /* don't forget to set a duration! */
+.logo, .logo-2, .logo-button {
+  animation:slideInRight; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 1.3s; /* don't forget to set a duration! */
 }
 
 .logo-2 {
@@ -433,7 +433,7 @@ opacity: 1;
   } */
 
 @media all and (max-width: 507px) {
- }  .dot-wrapper {
+  .dot-wrapper {
   display: none;
 }    #desktop_img {
   display: none;
@@ -448,11 +448,16 @@ top: 0%;
 bottom:0%;
 z-index: 999;
 background-color: rgba(102, 98, 98, 0.466);        
-} .logo, .logo-2 {
+} .logo {
 font-family: 'Roboto Thin';
-font-size: 25px !important;
+font-size: 27px !important;
 color: white;
-margin-top: 20px;
+margin-top: 23px;
+} .logo-2 {
+font-family: 'Roboto Thin';
+font-size: 27px !important;
+color: white;
+margin-top: 50px;
 } .logo-button {
   width: 60px;
   height: 40px;
@@ -461,6 +466,8 @@ margin-top: 20px;
   color: white;
   border: 1px white solid;
   background-color: rgba(255, 235, 205, 0);
+  margin-top: 15px;
+
 
 } .logo-button:hover {
   border: 2px white solid;
