@@ -497,7 +497,7 @@ margin-top: 50px;
   } .dot-wrapper {
     display: none;
   } .logo-button {
-    margin-top: 1px;
+    margin-top: 1  px;
   }
  }
 
@@ -706,6 +706,7 @@ input::placeholder {
   position: absolute;
   right: 11px;
   top: 10px;
+  filter: grayscale(50%);
 }
 
 .dropdown-button, 
