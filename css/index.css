@@ -54,11 +54,11 @@ a {
   
 }
 
+
 .header li a:hover,
 .header .menu-btn:hover {
   transition: .4s ease-in-out;
-  color: white !important;
-  background-color:  #344a63;
+  color: #798694;
   border-radius: 4px;
 }
 
@@ -179,7 +179,7 @@ a {
     font-size: 15px;
     font-family: 'Roboto Regular';
     padding: 0;
-    color: white !important;
+    color: white;
   }
   
   #html:hover {
@@ -194,7 +194,7 @@ a {
     font-size: 15px;
     font-family: 'Roboto Regular';
     padding: 0;
-    color: white !important;
+    color: white;
   }
 
   
@@ -210,7 +210,7 @@ a {
     font-size: 15px;
     font-family: 'Roboto Regular';
     padding: 0;
-    color: white !important;
+    color: white;
   }
   
   #javascript:hover {
@@ -438,7 +438,7 @@ opacity: 1;
       margin-top: 0;
     } #main-header {
       text-align: center;
-      line-height: 1.1;
+      line-height: 1.1;  
     }
     #your-photo {
      width: 300px;
