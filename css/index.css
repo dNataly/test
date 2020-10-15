@@ -436,6 +436,9 @@ opacity: 1;
 @media all and (max-width: 795px) {
     main {
       margin-top: 0;
+    } #main-header {
+      text-align: center;
+      line-height: 1.1;
     }
     #your-photo {
      width: 300px;
@@ -497,7 +500,7 @@ margin-top: 50px;
   } .dot-wrapper {
     display: none;
   } .logo-button {
-    margin-top: 1  px;
+    margin-top: 1px;
   }
  }
 
