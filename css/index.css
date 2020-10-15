@@ -706,7 +706,7 @@ input::placeholder {
   position: absolute;
   right: 11px;
   top: 10px;
-  filter: grayscale(50%);
+  filter: opacity(0.6);
 }
 
 .dropdown-button, 
