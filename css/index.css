@@ -237,7 +237,11 @@ a {
  } 
 .button:hover {
   background-color: #32b96b;
-} 
+} .prev {
+  left: 5%;
+ } .next {
+   right: 5%;
+}
 }
 
 @media screen and (max-width: 600px) {
@@ -428,20 +432,14 @@ opacity: 1;
   }
 
 
-  /* @media all and (max-width: 1117px) {
-  
-  } */
 
-@media all and (max-width: 560px) {
+@media all and (max-width: 795px) {
     main {
       margin-top: 0;
     }
     #your-photo {
      width: 300px;
       height: auto;
-    }
-  .dot-wrapper {
-  display: none;
 }    #desktop_img {
   display: none;
 } #mobile_img {
@@ -492,6 +490,16 @@ margin-top: 50px;
   z-index: 1001;
 }
 }
+
+@media all and (max-width: 1067px) {
+  .logo {
+    font-size: 22px;
+  } .dot-wrapper {
+    display: none;
+  } .logo-button {
+    margin-top: 1px;
+  }
+ }
 
 .logo {
   font-family: 'Roboto Thin';
@@ -605,7 +613,6 @@ main .about-you {
   justify-content: center;
   align-items: center;
   font-family: 'Roboto', sans-serif;
-  
   font-weight: 550;
   top: -18px;
 }
@@ -690,6 +697,7 @@ input::placeholder {
   padding-left: 20px;
   font-size: 20px;
   font-family: 'Roboto', sans-serif;
+  font-weight: 550px;
   text-align: left;
 }
 .dropdown-button::after {
