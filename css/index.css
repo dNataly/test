@@ -553,8 +553,9 @@ main {
 main .about-you {
   color: rgba(68, 68, 68, 255);
   width: 468px;
-  font-family: 'Roboto Light', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 15px;
+  font-weight: 600;
   line-height: 25px;
   margin-top: 35px;
 }
@@ -574,7 +575,7 @@ main .about-you {
   font-size: 35px;
   letter-spacing: 0.5px;
   padding-bottom: 30px;
-  font-family: 'Roboto Light', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #2c3e50;
 } 
 
