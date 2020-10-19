@@ -660,7 +660,6 @@ input:focus {
 
 input::placeholder {
   color: rgb(43, 42, 44);
-  /* font-weight: 500; */
 }
 
 .dropdown {
@@ -704,7 +703,6 @@ input::placeholder {
   padding-left: 20px;
   font-size: 20px;
   font-family: 'Roboto', sans-serif;
-  /* font-weight: 550; */
   text-align: left;
 }
 .dropdown-button::after {
@@ -728,7 +726,6 @@ input::placeholder {
   padding-left: 20px;
   padding-top: 13px;
   font-size: 20px;
-  /* font-weight: 550; */
   font-family: 'Roboto', sans-serif;
 }
 
