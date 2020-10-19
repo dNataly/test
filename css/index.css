@@ -178,7 +178,7 @@ a {
     left: 575px !important;
     top: 11px !important;
     font-size: 15px;
-    font-family: 'Roboto Regular';
+    font-family: 'Roboto Regular', sans-serif;
     padding: 0;
     color: white;
   }
@@ -193,7 +193,7 @@ a {
     left: 644px !important;
     top: 11px !important;
     font-size: 15px;
-    font-family: 'Roboto Regular';
+    font-family: 'Roboto Regular', sans-serif;
     padding: 0;
     color: white;
   }
@@ -209,7 +209,7 @@ a {
     left: 707px !important;
     top: 11px !important;
     font-size: 15px;
-    font-family: 'Roboto Regular';
+    font-family: 'Roboto Regular', sans-serif;
     padding: 0;
     color: white;
   }
@@ -411,7 +411,7 @@ opacity: 1;
 }
 
 .logo-2 {
-  font-family: 'Roboto Thin';
+  font-family: 'Roboto';
   font-size: 70px;
   color: white;
   }
