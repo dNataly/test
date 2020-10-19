@@ -388,7 +388,21 @@ opacity: 1;
   opacity: 0.9;
 }
 
-/* Fading animation */
+
+.logo {
+  font-family: 'Roboto', sans-serif;
+  font-size: 55px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  color: black;;
+  font-weight: 200;
+}
+
+.logo span::after {
+  content: "\a";
+  white-space: pre;
+}
 
 
 .logo, .logo-2, .logo-button {
@@ -457,12 +471,12 @@ bottom:0%;
 z-index: 999;
 background-color: rgba(102, 98, 98, 0.466);        
 } .logo {
-font-family: 'Roboto Thin';
+font-family: 'Roboto Thin', sans-serif;
 font-size: 27px !important;
 color: white;
 margin-top: 23px;
 } .logo-2 {
-font-family: 'Roboto Thin';
+font-family: 'Roboto Thin', sans-serif;
 font-size: 27px !important;
 color: white;
 margin-top: 50px;
@@ -472,17 +486,8 @@ margin-top: 50px;
   font-size: 15px;
   font-family: 'Roboto Regular';
   color: white;
-  border: 1px white solid;
-  background-color: rgba(255, 235, 205, 0);
   margin-top: 15px;
-
-
-} .logo-button:hover {
-  border: 2px white solid;
-  cursor: pointer;
-  font-size: 16px;
-  background-color: rgba(255, 255, 255, 0.089);
-}
+} 
 .prev {
   left: 2%;
   font-size: 25px;
@@ -504,18 +509,6 @@ margin-top: 50px;
   }
  }
 
-.logo {
-  font-family: 'Roboto Thin';
-  font-size: 55px;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: center;
-}
-
-.logo span::after {
-  content: "\a";
-  white-space: pre;
-}
 
 main {
   width: 100%;
@@ -700,7 +693,7 @@ input::placeholder {
   padding-left: 20px;
   font-size: 20px;
   font-family: 'Roboto', sans-serif;
-  font-weight: 550px;
+  font-weight: 550;
   text-align: left;
 }
 .dropdown-button::after {
