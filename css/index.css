@@ -471,12 +471,12 @@ bottom:0%;
 z-index: 999;
 background-color: rgba(102, 98, 98, 0.466);        
 } .logo {
-font-family: 'Roboto Thin', sans-serif;
+font-family: 'Roboto', sans-serif;
 font-size: 27px !important;
 color: white;
 margin-top: 23px;
 } .logo-2 {
-font-family: 'Roboto Thin', sans-serif;
+font-family: 'Roboto', sans-serif;
 font-size: 27px !important;
 color: white;
 margin-top: 50px;
@@ -500,9 +500,7 @@ margin-top: 50px;
 }
 
 @media all and (max-width: 1067px) {
-  .logo {
-    font-size: 22px;
-  } .dot-wrapper {
+  .dot-wrapper {
     display: none;
   } .logo-button {
     margin-top: 1px;
@@ -718,7 +716,7 @@ input::placeholder {
   padding-top: 13px;
   font-size: 20px;
   font-weight: 550;
-  font-family: Roboto, sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .dropdown-menu::-webkit-scrollbar-track {
