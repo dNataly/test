@@ -563,7 +563,8 @@ main .about-you {
 .your-photo {
   font-size: 11px;
   padding-bottom: 5px;
-  font-family: 'Roboto Light', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
 }
 
 .aside-img {
