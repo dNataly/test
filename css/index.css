@@ -378,9 +378,8 @@ opacity: 1;
 }
 
 .dot-wrapper {
-  position: static;
   margin-top: -60px;
-  right: 47%;
+  text-align: center;
 
 }
 
@@ -448,7 +447,7 @@ opacity: 1;
 
 
 
-@media all and (max-width: 795px) {
+@media all and (max-width: 870px) {
     main {
       margin-top: 0;
     } #main-header {
@@ -497,13 +496,27 @@ margin-top: 50px;
   right: 2%;
   font-size: 25px;
   z-index: 1001;
+}  
+.dot-wrapper {
+  text-align: center;
+  margin-top: -40px;
+} .dot {
+  width: 10px;
+  height: 10px;
+}
+}
+
+@media all and (max-width: 900px) {
+.dot-wrapper {
+  text-align: center;
+} .dot {
+  width: 13px;
+  height: 13px;
 }
 }
 
 @media all and (max-width: 1067px) {
-  .dot-wrapper {
-    display: none;
-  } .logo-button {
+  .logo-button {
     margin-top: 1px;
   }
  }
