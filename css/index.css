@@ -434,7 +434,7 @@ opacity: 1;
     font-size: 20px;
     border-radius: 3px;
     margin-top: 40px;
-    font-family: 'Roboto Regular';
+    font-family: 'Roboto Regular', sans-serif;
   }
   
   .logo-button:hover {
